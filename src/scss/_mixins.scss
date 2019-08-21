@@ -1,0 +1,14 @@
+//mixins
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+    content: $content;
+    display: $display;
+    position: $pos;
+}
+
+$body-bg: #f9f9f9;
+$body-font: #000;
+$contentbox-bg: #fff;
+$section-bg: #004680;
+$qestion-font: #7b7b7b;
+$box-color-font: #fff;
+$link: #09487d;
